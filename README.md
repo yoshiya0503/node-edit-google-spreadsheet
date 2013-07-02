@@ -165,7 +165,6 @@ Whether to use `https` when connecting to Google (default: `true`)
 
 #### Todo
 
-* Create New Spreadsheets
 * Read specific range of cells
 * Option to cache auth token in file
 
