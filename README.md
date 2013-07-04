@@ -175,4 +175,11 @@ Whether to use `https` when connecting to Google (default: `true`)
 
 #### Credits
 
-Thanks to `googleclientlogin` for easy Google API ClientLogin Tokens
+Thanks to `googleclientlogin` for Google API ClientLogin Tokens and `google-oauth-jwt` for OAuth Tokens.
+
+#### References
+
+* https://developers.google.com/google-apps/spreadsheets/
+* https://developers.google.com/google-apps/documents-list/
+
+
