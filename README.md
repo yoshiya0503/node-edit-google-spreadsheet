@@ -1,8 +1,12 @@
 ## Node - Edit Google Spreadsheet
 
-Currently, there are about 3 different node modules which allow you to read data off Google Spreadsheets, though none with a good write API. Enter `edit-google-spreadsheet`. A simple API for reading and updating Google Spreadsheets.
+Currently, there are about 3 different node modules which allow you to
+read data off Google Spreadsheets, though none with a good write API.
+Enter `edit-google-spreadsheet`.
+A simple API for reading and updating Google Spreadsheets.
 
 #### Install
+
 ```
 npm install edit-google-spreadsheet
 ```
@@ -152,7 +156,7 @@ If `true`, will display colourful console logs outputing current actions.
 Google account - *Be careful about committing these to public repos*.
 
 ##### `oauth`
-OAuth configuration object. See [google-oauth-jwt](https://github.com/extrabacon/google-oauth-jwt). *By default `oauth.scopes` is set to `['https://spreadsheets.google.com/feeds']` (`http` if not `useHTTPS`*
+OAuth configuration object. See [google-oauth-jwt](https://github.com/extrabacon/google-oauth-jwt#specifying-options). *By default `oauth.scopes` is set to `['https://spreadsheets.google.com/feeds']` (`https` if `useHTTPS`)*
 
 ##### `spreadSheetName` `spreadsheetId`
 The spreadsheet you wish to edit. Either the Name or Id is required.
